@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://www.palpitedigital.com/y/322/corretor-e1444142590776.jpg" alt="Logo" width="80" height="80">
+    <img src="https://img.freepik.com/fotos-gratis/xadrez-de-ouro-e-prata-no-jogo-de-tabuleiro-de-xadrez-para-o-conceito-de-lideranca-de-metafora-de-negocios_1150-19593.jpg?w=2000" alt="Logo" width="80" height="80">
 </p>
 
 # <h1 align="center">Analisador de Jogos de Xadrez</h3>
@@ -17,11 +17,11 @@ O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O fic
 ## Operação anos
 Gera dois gráficos: 
 * Gráfico de barras, onde:
-* * As abcissas são os anos (2009, . . . , 2021).
-* * As ordenadas são o número de jogos.
+** As abcissas são os anos (2009, . . . , 2021).
+** As ordenadas são o número de jogos.
 * Gráfico de curva, onde:
-* * As abcissas são os anos (2009, . . . , 2021).
-* *  As ordenadas são o número de jogadoras.
+** As abcissas são os anos (2009, . . . , 2021).
+**  As ordenadas são o número de jogadoras.
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
