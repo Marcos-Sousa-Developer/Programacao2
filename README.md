@@ -15,7 +15,8 @@ O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O fic
 # Instruções 
 
 ## Operação anos
-Gera dois gráficos: 
+Tratam-se de dois gráficos sobrepostos na mesma figura, com um eixo das abcissas comum, e dois eixos distintos para as ordenadas, um à esquerda (como habitualmente), e outro à direita.
+
 * Gráfico de barras, onde:
     * As abcissas são os anos (2009, . . . , 2021).
     * As ordenadas são o número de jogos.
@@ -28,12 +29,12 @@ Gera dois gráficos:
 python3 projeto.py xadrez.csv anos
 ```
 
-## Função mmLetras
+## Operação classes
 Devolve a subtração entre o tamanho da maior palavra dada e o número de letras iguais nas mesmas posições entre as duas palavras
 
-#### **Run it on terminal or open the code (main.py) and test it** 
+#### **Run it on terminal** 
 ```bash
-python3 -c 'from main import *; print(mmLetras("YOUR TEXT HERE", "YOUR TEXT HERE"))'
+python3 projeto.py xadrez.csv classes'
 ```
 
 ## Função edicoes 
