@@ -103,6 +103,6 @@ todos os jogos).
 
 #### **Run it on terminal** 
 ```bash
-python3 rojeto.py out.csv vitorias
+python3 projeto.py out.csv vitorias
 ``` 
 
