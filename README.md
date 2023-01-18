@@ -34,14 +34,14 @@ python3 projeto.py xadrez.csv classes -c 3
 ```
 
 ## Operação vitorias 
-Gráfico de barras em que as abcissas são os nomes das jogadoras e as ordenadas são as percentagens de vitórias quando o jogo se inicia com as peças brancas e quando se inicia com as peças pretas.
+Gráfico de barras em que as abcissas são os nomes das jogadoras e as ordenadas são as percentagens de vitórias quando o jogo se inicia com as peças brancas e quando se inicia com as peças pretas. <br>
 Este gráfico mostra, por omissão, dados referentes apenas às cinco jogadoras com mais jogos jogados. A opção -c n controla o número de
-jogadoras a apresentar.
+jogadoras a apresentar. <br>
 Em alternativa à opção -c, este comando aceita uma outra opção, -u u1 . . . un , que permite especificar os nomes das n jogadoras a comparar com nomes de utilizador u1 , . . . , un .
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 projeto.py xadrez.csv vitorias -u budu44 advantagelucy
+python projeto.py xadrez.csv vitorias ; python projeto.py xadrez.csv vitorias -u budu44 advantagelucy
 ``` 
 ## Função sugerir 
 Recebe um vocabulário, uma palavra, uma função de distância e um inteiro positivo n de sugestões e devolve uma lista de n palavras do vocabulário mais próximas da palavra dada, de acordo com a função de distância 
