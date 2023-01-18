@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://img.freepik.com/fotos-gratis/xadrez-de-ouro-e-prata-no-jogo-de-tabuleiro-de-xadrez-para-o-conceito-de-lideranca-de-metafora-de-negocios_1150-19593.jpg?w=2000" alt="Logo" width="80" height="80">
+    <img src="https://toppng.com/uploads/preview/xadrez-pecas-115510531310ckdoeofuf.png" alt="Logo" width="80" height="80">
 </p>
 
 # <h1 align="center">Analisador de Jogos de Xadrez</h3>
