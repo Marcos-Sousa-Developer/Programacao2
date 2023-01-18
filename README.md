@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://toppng.com/uploads/preview/xadrez-pecas-115510531310ckdoeofuf.png" alt="Logo" width="80" height="80">
+    <img src="https://www.pngmart.com/files/3/Chess-PNG-Image.png" alt="Logo" width="80" height="80">
 </p>
 
 # <h1 align="center">Analisador de Jogos de Xadrez</h3>
