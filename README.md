@@ -2,20 +2,26 @@
     <img src="https://www.palpitedigital.com/y/322/corretor-e1444142590776.jpg" alt="Logo" width="80" height="80">
 </p>
 
-# <h1 align="center">Corretor Ortográfico</h3>
-<h4 align="center">Projeto para a cadeira de Programação 1 (2020/2021)</h5>
+# <h1 align="center">Analisador de Jogos de Xadrez</h3>
+<h4 align="center">Projeto para a cadeira de Programação 2 (2020/2021)</h5>
 
 <hr>
 
 # Objetivo
-O objetivo deste projeto é criar um corretor ortográfico baseado num vocabulário disponível com um conjunto de palavras, o corretor lê uma string com texto e indicar todas as palavras que não reconhece. Para além disso, deve sugere correções baseadas num algoritmo de semelhança de palavras.
+O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O ficheiro xadrez.csv contém informação sobre mais de 100 mil jogos de xadrez jogados pelas melhores jogadora do mundo.
 
 <hr>
 
 # Instruções 
 
-## Função gerarPalavras 
-Recebe uma string com texto, e devolve uma lista com as várias palavras contidas na string, pela ordem que aparecem. 
+## Operação anos
+Gera dois gráficos: 
+* Gráfico de barras, onde:
+* * As abcissas são os anos (2009, . . . , 2021).
+* * As ordenadas são o número de jogos.
+* Gráfico de curva, onde:
+* * As abcissas são os anos (2009, . . . , 2021).
+* *  As ordenadas são o número de jogadoras.
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
