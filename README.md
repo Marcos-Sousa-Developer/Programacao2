@@ -17,8 +17,8 @@ O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O fic
 ## Operação anos
 Gera dois gráficos: 
 * Gráfico de barras, onde:
-* * As abcissas são os anos (2009, . . . , 2021).
-* * As ordenadas são o número de jogos.
+ * As abcissas são os anos (2009, . . . , 2021).
+ * As ordenadas são o número de jogos.
 * Gráfico de curva, onde:
 ** As abcissas são os anos (2009, . . . , 2021).
 **  As ordenadas são o número de jogadoras.
