@@ -24,7 +24,7 @@ python3 projeto.py xadrez.csv anos
 
 ## Operação classes
 Gráficos da distribuição de jogos por formato de jogo. Os jogos de xadrez online podem ser jogados com várias restrições de tempo de jogo; dividem-se em 4 classes: rapid, daily, bullet e blitz. <br>
-Apresentação por omissão, o top-5 dos formatos mais populares, isto é, dos formatos com maior número de jogos ao longo de todos os anos.
+Apresentação por omissão do top-5 dos formatos mais populares, isto é, dos formatos com maior número de jogos ao longo de todos os anos.
 No entanto, caso a opção -c n esteja presente na linha de comandos, o gráfico apresenta as n classes mais populares, isto é, com maior número de
 jogos. 
 
