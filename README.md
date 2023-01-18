@@ -23,9 +23,9 @@ Gera dois gráficos:
     * As abcissas são os anos (2009, . . . , 2021).
     * As ordenadas são o número de jogadoras.
 
-#### **Run it on terminal or open the code (main.py) and test it** 
+#### **Run it on terminal** 
 ```bash
-python3 -c 'from main import *; print(gerarPalavras("YOUR TEXT HERE"))'
+$ python projeto.py xadrez.csv anos
 ```
 
 ## Função mmLetras
