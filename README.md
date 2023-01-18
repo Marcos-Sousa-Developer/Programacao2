@@ -37,7 +37,10 @@ jogos.
 ```bash
 python3 projeto.py xadrez.csv classes -c 3
 ```
-
+#### Outro exemplo: **Run it on terminal** 
+```bash
+python3 projeto.py xadrez.csv classes -c 3
+``` 
 ## Operação vitorias 
 Gráfico de barras em que as abcissas são os nomes das jogadoras e as ordenadas são as percentagens de vitórias quando o jogo se inicia com as peças brancas e quando se inicia com as peças pretas. <br>
 Este gráfico mostra, por omissão, dados referentes apenas às cinco jogadoras com mais jogos jogados. A opção -c n controla o número de
@@ -59,13 +62,13 @@ A jogada a considerar pode ser passada na  linha de comandos, como opção. Por 
 
 #### **Run it on terminal** 
 ```bash
-python3 projeto.py xadrez.csv seguinte -j e4'
-```  
-ou 
-
-```bash
 python3 projeto.py xadrez.csv seguinte
 ``` 
+
+#### Outro exemplo: **Run it on terminal** 
+```bash
+python3 projeto.py xadrez.csv seguinte -j e4'
+```  
 
 ## Operação mate 
 Mostra dois gráficos, com um eixo das abcissas comum representando o nome das jogadoras e dois eixos de ordenadas distintos. <br>
@@ -91,7 +94,7 @@ o seu conteúdo deverá ser rescrito.
 ```bash
 python3 projeto.py xadrez.csv extrair -r '2020' -d end_time
 ``` 
-#### Outro exemplo **Run it on terminal** 
+#### Outro exemplo: **Run it on terminal** 
 ```bash
 python3 projeto.py xadrez.csv extrair -r '^a' -o xadrez_a.csv
 ``` 
