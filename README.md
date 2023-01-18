@@ -67,7 +67,7 @@ python3 projeto.py xadrez.csv seguinte
 
 #### Outro exemplo: **Run it on terminal** 
 ```bash
-python3 projeto.py xadrez.csv seguinte -j e4'
+python3 projeto.py xadrez.csv seguinte -j e4
 ```  
 
 ## Operação mate 
