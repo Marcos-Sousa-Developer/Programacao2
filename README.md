@@ -25,7 +25,7 @@ Gera dois gráficos:
 
 #### **Run it on terminal** 
 ```bash
-$ python projeto.py xadrez.csv anos
+python3 projeto.py xadrez.csv anos
 ```
 
 ## Função mmLetras
