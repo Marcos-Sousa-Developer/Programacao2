@@ -42,7 +42,6 @@ Em alternativa à opção -c, este comando aceita uma outra opção, -u u1 . . .
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
 python projeto.py xadrez.csv vitorias
-python projeto.py xadrez.csv vitorias -u budu44 advantagelucy
 ``` 
 ## Função sugerir 
 Recebe um vocabulário, uma palavra, uma função de distância e um inteiro positivo n de sugestões e devolve uma lista de n palavras do vocabulário mais próximas da palavra dada, de acordo com a função de distância 
