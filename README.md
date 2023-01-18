@@ -39,22 +39,52 @@ Este gráfico mostra, por omissão, dados referentes apenas às cinco jogadoras 
 jogadoras a apresentar. <br>
 Em alternativa à opção -c, este comando aceita uma outra opção, -u u1 . . . un , que permite especificar os nomes das n jogadoras a comparar com nomes de utilizador u1 , . . . , un .
 
-#### **Run it on terminal or open the code (main.py) and test it** 
+#### **Run it on terminal** 
 ```bash
-python projeto.py xadrez.csv vitorias
+python3 projeto.py xadrez.csv vitorias -u budu44 advantagelucy
 ``` 
-## Função sugerir 
-Recebe um vocabulário, uma palavra, uma função de distância e um inteiro positivo n de sugestões e devolve uma lista de n palavras do vocabulário mais próximas da palavra dada, de acordo com a função de distância 
+## Operação seguinte 
+Mostra um gráfico de barras das top-5 jogadas mais prováveis após uma dada jogada. A jogada por omissão é e4 (que corresponde
+a avançar o peão de rei duas casas). Neste caso ficamos a saber que, após a jogada e4, as jogadas mais comuns são: c5 (avançar o peão da coluna c duas
+casas; a chamada defesa siciliana), e5 (avançar o peão de rei duas casas), e6 (avançar o peão de rei uma casa), c6 (avançar o peão da coluna c uma casa) e Nf6 (mover o cavalo de rei para f6). <br>
+A jogada a considerar pode ser passada na  linha de comandos, como opção. Por exemplo, -j e4 indica que o gráfico irá apresentar as jogadas mais prováveis que sucedem à jogada e4. <br>
+À semelhança do caso anterior, este comando mostra por omissão o top-5 das jogadas mais comuns e aceita a opção -c n para especificar o número de jogadas n a considerar.
 
-#### **Run it on terminal or open the code (main.py) and test it** 
+#### **Run it on terminal** 
 ```bash
-python3 -c 'from main import *; print(sugerir("YOUR VOCABULARY LIST, "YOUR TEXT HERE", "YOUR DISTANCE FUNCTION", maxSugestoes=5))'
+python3 projeto.py xadrez.csv seguinte -j e4'
 ``` 
 
-## Função corretor 
-Recebe um vocabulário, um texto, uma função de distância e um inteiro positivo n de sugestões e imprime um relatório com as correções sugeridas 
+## Operação mate 
+Mostra dois gráficos, com um eixo das abcissas comum representando o nome das jogadoras e dois eixos de ordenadas distintos. <br>
+Do lado esquerdo temos o eixo do número de jogos, que corresponde às ordenadas do gráfico de barras e que mostra o número de jogos ganhos por
+xeque-mate e o número de jogos ganhos de qualquer modo. <br>
+Do lado direito temos o eixo das ordenadas, correspondente à curva das percentagens de
+jogos ganhos por xeque-mate. <br>
+À semelhança de gráficos anteriores, este comando mostra por omissão as 5 jogadoras com mais jogos ganhos. A opção -c n especifica o número de
+jogadoras a mostrar.
 
-#### **Run it on terminal or open the code (main.py) and test it** 
+#### **Run it on terminal** 
 ```bash
-python3 -c 'from main import *; print(corretor("YOUR VOCABULARY LIST, "YOUR TEXT HERE", "YOUR DISTANCE FUNCTION", maxSugestoes=5))'
+python3 projeto.py xadrez.csv mate
 ``` 
+
+## Comando extrair 
+Este comando extrai informação do ficheiro original para um outro ficheiro csv.
+* A opção -o nome_ficheiro especifica o nome do ficheiro a criar com os novos dados. O valor por omissão é out.csv. Se este ficheiro já existir,
+o seu conteúdo deverá ser rescrito. 
+*A opção -r expressão_regular identifica as linhas de interesse. O seu valor por omissão é '.*'
+* A opção -d coluna indica a coluna na qual a expressão regular é testada. O valor por omissão é wgm_username.
+
+#### **Run it on terminal** 
+```bash
+python projeto.py xadrez.csv extrair -r '2020' -d end_time
+``` 
+Todos os gráficos descritos acima podem ser gerados a partir de ficheiros produzidos por este comando (em vez de usar o ficheiro xadrez.csv com
+todos os jogos). 
+
+#### **Run it on terminal** 
+```bash
+python projeto.py out.csv vitorias
+``` 
+
