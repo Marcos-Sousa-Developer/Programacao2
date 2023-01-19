@@ -104,5 +104,6 @@ todos os jogos).
 #### **Run it on terminal** 
 ```bash
 python3 projeto.py out.csv vitorias
+
 ``` 
 
